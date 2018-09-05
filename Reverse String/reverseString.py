@@ -24,8 +24,7 @@ class main ():
         print('\n ### reverse to normal ### \n')
 
         for i in range (len(string2)):
-            arrayString2 = [string2]
-
+            arrayString2 =[string2]
 
             for words in arrayString2:
                 print (words [25 - i])
